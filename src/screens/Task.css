@@ -1,0 +1,95 @@
+/*  TASK 1 styles */
+
+.sky{ 
+   
+    position: relative;
+    height: 99vh;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+    z-index: 7;
+  
+}
+
+.landscape{
+    position: absolute;
+    height: 100vh;
+      top: 0px;
+      left: 0px;
+      border: 1px green solid;
+      z-index: 2;
+     
+}
+
+
+/*  TASK 2 styles */
+
+.main{
+    background-color: #E5E5E5;
+    border: solid 2px red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body{
+    width: 30%;
+}
+
+.menu__section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu {
+    background-color: #F7F8FA;
+    color:#031741;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0px 20px;
+    outline: none;
+    transition: background-color 0.6s ease;
+  }
+  
+  .menu:hover,
+  .active {
+    background-color: #F7F8FA;;
+  }
+  
+  .menu__title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .menu__icon {
+    margin-left: auto;
+     transition: transform 0.6s ease;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  .menu__content {
+    background-color: white;
+    /* overflow: auto; */
+    transition: max-height 0.6s ease;
+
+   
+  }
+  
+  .menu__text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 12px;
+    width: 30%;
+  
+
+  }
+  
