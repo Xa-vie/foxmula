@@ -1,5 +1,5 @@
-import Menu from "./menu"
-import "./Task.css"
+import Menu from "./Menu"
+import "../Task.css"
 
 const data = [
     {
@@ -31,11 +31,10 @@ const data = [
 const Task2 = () => {
 
     return (
-        <div className="main">
-            <div className="body">  {
+        <div className="main2">
+            <div className="body2">  {
                 data.map(({ item, week }) => (
                     <>
-
                         <Menu data={item} week={week} />
                     </>
                 ))
