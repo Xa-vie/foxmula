@@ -26,7 +26,7 @@ const Menu = ({ data, week }) => {
         <div className="menu-section">
             <button className={`menu ${active}`} onClick={handleToggle}>
                 <p className="menu-title">WEEK  {week}</p>
-                <img src={arrow} className={`${turn}`} width="15" height="15" />
+                <img alt="arrow" src={arrow} className={`${turn}`} width="15" height="15" />
             </button>
             <center
                 ref={content}
